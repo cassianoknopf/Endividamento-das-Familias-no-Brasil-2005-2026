@@ -1,0 +1,50 @@
+{
+  "name": "Endividamento BR",
+  "dataColors": ["#1F4E79", "#C55A11", "#9DC3E6", "#F4B183", "#6B7280", "#D1D5DB"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#1F4E79",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#111827" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 9, "color": "#4B5563" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "title": [{
+          "show": true,
+          "fontFamily": "Segoe UI Semibold",
+          "fontSize": 13,
+          "fontColor": { "solid": { "color": "#111827" } },
+          "alignment": "left"
+        }],
+        "subTitle": [{
+          "show": true,
+          "fontFamily": "Segoe UI",
+          "fontSize": 10,
+          "fontColor": { "solid": { "color": "#6B7280" } },
+          "alignment": "left"
+        }],
+        "legend": [{
+          "fontFamily": "Segoe UI",
+          "fontSize": 9,
+          "labelColor": { "solid": { "color": "#4B5563" } },
+          "position": "TopLeft"
+        }],
+        "categoryAxis": [{
+          "fontFamily": "Segoe UI",
+          "fontSize": 9,
+          "labelColor": { "solid": { "color": "#6B7280" } }
+        }],
+        "valueAxis": [{
+          "fontFamily": "Segoe UI",
+          "fontSize": 9,
+          "labelColor": { "solid": { "color": "#6B7280" } }
+        }]
+      }
+    }
+  }
+}
